@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Profile</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <h2 class="logo">Mini Social</h2>
+
+            <div class="nav-links">
+
+                <a href="index.html">Home</a>
+
+                <a href="profile.html">Profile</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Profile -->
+
+    <main class="profile-wrapper">
+
+        <div class="profile-card">
+
+            <img
+                id="profileImage"
+                class="profile-image"
+                src=""
+                alt="Profile Image">
+
+            <h2 id="name" class="profile-name"></h2>
+
+            <p id="email" class="profile-email"></p>
+
+            <p id="bio" class="profile-bio"></p>
+
+            <hr class="divider">
+
+            <h3 class="edit-title">
+                Edit Profile
+            </h3>
+
+            <div class="profile-form">
+
+                <input
+                    type="text"
+                    id="newName"
+                    class="profile-input"
+                    placeholder="Enter Name">
+
+                <input
+                    type="text"
+                    id="newBio"
+                    class="profile-input"
+                    placeholder="Enter Bio">
+
+                <input
+                    type="text"
+                    id="newImage"
+                    class="profile-input"
+                    placeholder="Profile Image URL">
+
+                <button
+                    id="update"
+                    class="primary-btn">
+
+                    Update Profile
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="js/profile.js"></script>
+
+</body>
+
+</html>

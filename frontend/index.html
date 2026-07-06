@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Social Feed</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <h2 class="logo">Mini Social</h2>
+
+            <div class="nav-links">
+
+                <a href="index.html">Home</a>
+
+                <a href="profile.html">Profile</a>
+
+                <button id="logoutBtn" class="logout-btn">
+                    Logout
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Feed -->
+
+    <main class="feed-container">
+
+        <!-- Create Post Card -->
+
+        <section class="create-post">
+
+            <h3>Create a Post</h3>
+
+            <textarea
+                id="caption"
+                class="post-input"
+                placeholder="What's on your mind?"></textarea>
+
+            <input
+                type="text"
+                id="image"
+                class="post-input"
+                placeholder="Paste Image URL">
+
+            <button
+                id="createPost"
+                class="primary-btn">
+
+                Create Post
+
+            </button>
+
+        </section>
+
+        <!-- Posts -->
+
+        <section
+            id="posts"
+            class="posts-container">
+
+        </section>
+
+    </main>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
